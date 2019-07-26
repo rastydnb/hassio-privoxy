@@ -13,7 +13,6 @@ RUN  apk --update --no-cache add privoxy bash
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 EXPOSE 8118 
-COPY service /etc/service
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 ADD privoxy /etc/privoxy/config

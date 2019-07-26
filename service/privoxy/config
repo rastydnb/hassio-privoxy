@@ -1,3 +1,0 @@
-
-listen-address 0.0.0.0:8118
-forward-socks5 / 192.168.31.242:9050 .
